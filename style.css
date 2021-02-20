@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+.header {
+  background-color: cadetblue;
+}
+.nav-item {
+  color: black;
+  text-decoration: none;
+  font-size: 16pt;
+}
+.nav-item:hover {
+  color: grey;
+}
+.about {
+  background-color: lightslategray;
+  padding: 1rem;
+}
+.row {
+  display: flex;
+}
+.col {
+  width: 50%;
+}
+.about-image {
+  border: 6px solid white;
+}
+.text-align {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+.justify-content {
+  justify-content: center;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
